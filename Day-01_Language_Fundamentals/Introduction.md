@@ -307,8 +307,9 @@ Python can run on different platforms like Windows, Mac, Linux, etc.
    - Efficient and easy to learn.
    - Python is accessible.
 
-[!The process to generate the output.](https://github.com/yaswanthteja/100Days_of_Python/blob/main/images/The%20process%20to%20generate%20the%20output.png)
+[The process to generate the output.]
 
+![The process to generate the output](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/6e122ad4-826d-429f-b052-6588a851cc5d)
 
 
 # What is bytecode in Python
@@ -319,6 +320,7 @@ When the code is converted to machine code a new file is created which is easier
 
 [Stages for generating output in Python]()
 
+![Stages for generating output in Python](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/d931884d-f28d-4ca0-8341-22aed998c9e1)
 
 - Byte codes are referred to as the portable codes or p-codes. When a python code is interpreted into the machine language then the python code gets converted into bytes.
 - These bytecodes are also called as the set of instructions for the virtual machine and the python interpreter is the implementation of the virtual machine. 

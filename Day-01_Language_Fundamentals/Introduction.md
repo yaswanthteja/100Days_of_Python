@@ -307,7 +307,7 @@ Python can run on different platforms like Windows, Mac, Linux, etc.
    - Efficient and easy to learn.
    - Python is accessible.
 
-[The process to generate the output.]()
+[!The process to generate the output.](https://github.com/yaswanthteja/100Days_of_Python/blob/main/images/The%20process%20to%20generate%20the%20output.png)
 
 
 

@@ -399,3 +399,42 @@ You can delete .pyc files, if you do that and then you import that module again 
 Another tool that aims to simplify this across all platforms is the [pyclean package](https://pypi.org/project/pyclean/). To use this package, you install it using pip, make sure you’re in the directory you want to clean, and run:  pyclean -v .
 
 
+
+# Dynamic Typing vs Static Typing 
+
+Dynamic typing and static typing are two different attributes of programming language on which they can be divided.
+
+ Python is a dynamically typed language which means checking of the variable is done at the runtime. Whereas in the Statically typed language the checking of the variables or any other is done at the compile time. 
+ 
+ Dynamically typed language is easier to write as no need to initialize the type of the variable, but it also creates confusion while the code is revisited. Let’s see more on “Dynamic Typing vs Static Typing in Python”.
+
+ ## Dynamically Typed language:
+
+A language is considered as Dynamically typed language if the variable type of the language is checked at the runtime of the code compilation or code interpretation.
+
+ In such type of programming languages, we don’t need to initialize a variable with its type. We can declare a variable by writing the name at left and the value at the left of the variable name, Ex Var = 90. Some 
+ 
+ 
+dynamically typed languages are:
+  -	Python
+  -	PHP
+  -	JavaScript
+As the memory allocation and variable checking are done at the runtime of the code, these type of languages are not considered as less optimised than statically typed language.
+
+## Statically typed language
+
+In statically typed languages the type of the variable s checked at the compile time of the variable declaration.
+
+ Statically programming languages check the type of the variable or abject while the code enters the compiler. Unlike dynamically typed languages we need to write the type of the variable during initializing it. Ex in java, int Var = 10. Some statically typed languages are:
+  -	Java
+  -	C
+  -	C++
+
+In Statically typed languages once if a variable is initialized to a data-type it cannot be assigned to the variable of a different type. Statically typed languages are faster than dynamically typed languages.
+
+[Dynamictyping]()
+
+[Differences between dynamic typing and static typing]()
+
+
+

@@ -14,6 +14,7 @@
 ## Day1 - Language Fundamentals
 
 - [Introduction](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-01_Language_Fundamentals/Introduction.md)
+- [Installation of python](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-01_Language_Fundamentals/Installation_%26%20_Setup%20Guide.md)
 
 
 ## Day2 - working With Variables 

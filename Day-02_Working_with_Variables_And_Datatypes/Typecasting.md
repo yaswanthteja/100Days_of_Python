@@ -8,7 +8,8 @@ The following are various inbuilt functions for type casting.
 3. complex()
 4. bool()
 5. str()
-1.int():
+
+# 1.int():
 We can use this function to convert values from other types to int
 Eg:
 ```
@@ -107,6 +108,9 @@ Eg:
  bool("False")==>True 
  bool("")==>False
 ```
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/1ad03a89-675c-4726-932e-03b2007dc8bd)
+
  
  # 5. str():
 We can use this method to convert other type values to str type

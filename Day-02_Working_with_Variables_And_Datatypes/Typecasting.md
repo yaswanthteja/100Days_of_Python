@@ -67,6 +67,8 @@ We can use this function to convert x into complex number with real part x and i
 part 0.
 
 Eg: 
+
+```
  complex(10)==>10+0j 
  complex(10.5)===>10.5+0j 
  complex(True)==>1+0j 
@@ -75,16 +77,23 @@ Eg:
  complex("10.5")==>10.5+0j 
  complex("ten") 
  ValueError: complex() arg is a malformed string 
-
+```
 ## Form-2: complex(x,y)
 We can use this method to convert x and y into complex number such that x will be real 
 part and y will be imaginary part.
 
-Eg: complex(10,-2)==>10-2j
- complex(True,False)==>1+0j
+Eg: 
+
+```
+complex(10,-2)==>10-2j
+complex(True,False)==>1+0j
+```
 # 4. bool():
 We can use this function to convert other type values to bool type.
+
 Eg: 
+
+```
  bool(0)==>False 
  bool(1)==>True 
  bool(10)===>True 
@@ -97,5 +106,19 @@ Eg:
  bool("True")==>True 
  bool("False")==>True 
  bool("")==>False
-
+```
  
+ # 5. str():
+We can use this method to convert other type values to str type
+
+Eg:
+```
+ >>> str(10) 
+ '10' 
+ >>> str(10.5) 
+ '10.5' 
+ >>> str(10+5j) 
+ '(10+5j)' 
+ >>> str(True) 
+ 'True'
+``` 

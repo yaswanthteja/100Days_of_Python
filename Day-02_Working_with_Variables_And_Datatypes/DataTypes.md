@@ -173,7 +173,7 @@ A complex number is of the form.
 
 ![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/1402ef57-5b44-40e3-ab89-65c29e43f47a)
 
-- a and b contain intergers or floating point values
+- a and b contain integers or floating point values
 -  Eg:
    - 3+5j
    - 10+5.5j

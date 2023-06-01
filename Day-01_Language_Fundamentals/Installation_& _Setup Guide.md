@@ -1,4 +1,13 @@
 
+# Table of Contents
+-  [Installation of Python](#installation-of-python)
+- [Installation of Python in Windows](#how-to-install-python-on-windows)
+- [Installation of Python on macOS](#how-to-install-python-on-macos)
+- [Installation of  Python on Linux](#how-to-install-python-on-linux)
+
+
+
+
 # Installation of Python
 
 Installing or updating Python on your computer is the first step to becoming a Python programmer. 

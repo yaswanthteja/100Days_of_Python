@@ -1,8 +1,21 @@
 
+<<<<<<< HEAD
 
 
 
 
+=======
+# Table of Contents
+-  [Installation of Python](#installation-of-python)
+- [Installation of Python in Windows](#how-to-install-python-on-windows)
+- [Installation of Python on macOS](#how-to-install-python-on-macos)
+- [Installation of  Python on Linux](#how-to-install-python-on-linux)
+
+# Installing IDE's & Code Editors
+- [Installing Vscode](#installing-vscode)
+- [Installing Jupyter Notebook](#jupyter-notebook)
+- [Other IdE and code editors](#other-ide-and-code-editors)
+>>>>>>> ace4ae96f156764fc5761c634edb9dd6eafa46e0
 
 
 
@@ -280,8 +293,132 @@ $ python3.10 -m test
 - You’ll probably want to find something else to do for a while, as your computer will be running tests for some time. If all the tests pass, then you can be confident that your brand-new Python build is working as expected!
 
 
+# Installing IDE's & Code Editors
+
+## installing Vscode
+
+To install Visual Studio Code (VS Code) on Windows, you can follow these steps:
+
+- Visit the official VS Code website: Go to the official website of [Visual Studio Code](https://code.visualstudio.com/)
+
+- Download the installer: On the VS Code website, click on the "Download" button to download the installer based on your operating system.
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/67ba499c-7f33-4b3b-891a-f55daf98e281)
+
+
+- Run the installer: Once the installer is downloaded, locate the downloaded file (typically named "VSCodeSetup.exe") and double-click on it to run the installer.
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/d1c6a56c-6de8-4073-a9cf-f899f86b5b02)
+
+
+- User Account Control (UAC) prompt: If a User Account Control prompt appears, click "Yes" to allow the installer to make changes to your device.
+
+- Select Installation Options: The VS Code installer will open. You can choose the installation location and select additional options according to your preference. By default, the recommended options are pre-selected, so you can proceed by clicking "Next".
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/68de930c-24e2-4a0b-bc42-b9934004fd38)
+
+
+- Select Start Menu Folder: Choose the folder where you want to create shortcuts for VS Code in the Start Menu. Click "Next" to continue.
+
+- Additional Tasks: The installer may present additional tasks such as adding context menu options. Choose the desired options and click "Next".
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/6bc44913-d6f2-4f3c-87d7-605d28f63a74)
+
+
+- Start VS Code: Once the installation is complete, you can choose to launch VS Code immediately by keeping the checkbox "Launch Visual Studio Code" selected. Otherwise, you can uncheck it and manually launch VS Code later.
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/f3e142f1-7c1f-49fe-9010-c40c3d4ed840)
+
+
+- Finish the installation: Click the "Finish" button to complete the installation process.
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/2a943918-9360-40a5-9d42-bd59ae3a01b5)
+
+- This is what VS Code home page looks like.
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/5d40ba8f-84ea-4519-88fd-8fb7cfb12b4a)
+
+
+- After following these steps, Visual Studio Code should be successfully installed on your Windows machine. You can launch VS Code by locating it in the Start Menu or by double-clicking on the desktop shortcut if you chose to create one during installation.
+
+
+### Extenstions
+
+To run the python in VS Code smoothly, we need to install the Python extension provided by Microsoft. It offers IntelliSense (Pylance), linting, debugging, code navigation, code formatting, refactoring, variable explorer, test explorer and more!
+
+To install it:
+
+- First click the four dots menu on the left side called “Extensions”.
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/fac6f2c6-f3c7-4dc9-8358-ed8580b1d71c)
+
+- Then type Python in the search bar (it requires internet connection).
+- Look for the Python by Microsoft.
+- Click it and look on the right side for install button.
+- Click on the install button.
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/e0870407-0146-4d2a-9c20-456f24f9cb33)
+
+
+### Jupyter Notebook
+
+- Install the Python and Jupyter extensions
+- I recommend using Visual Studio Code that way if you want to make .py files it's easy
+- Code Cells, inline plots
+
+Open VSCode and click on the "Extensions" button on the left side of the toolbar. Use the search bar to download the "Python" and "Jupyter" extensions from the marketplace.
+
+![python Extentions](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/78e08a44-0138-44fc-96c6-11499f209b1b)
+
+ - Next, click on the “Explorer” located on the left side menu (top one).
+
+- Next press Ctrl + Shift + P, it will open the Command Palette. The command palette is the option menu from where any functionality of VS Code can be set or altered.
+Next, type in the search “Select Interpreter”. Once it shows the option, click on it and wait for a few seconds.
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/497ea80d-154c-4307-ace6-546b0eae6df1)
+
+- After waiting for a few seconds, it will show all the available Python interpreters. Here in the below image it is showing the Python 3.9.7 as interpreter but in your case it may show other interpreter version numbers like Python 3.your installed python version number, so choose Python .your version no,here 3.9.7  this is the  installed version of python in my system it may differ to your  and we could utilize it to run Python codes.
+
+- But occasionally, we need to create a separate environment for running Python, especially for a group project. Here comes the part called Python environment.
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/1855d66d-819d-47f3-aaa1-3cfbcb7f2246)
+
+
+## jupyter
+
+
+![jupyter extenstion](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/45687ad7-29a2-4c17-8626-2cc87228826b)
+
+## installing Juputer notebook in windows
+
+
+- Install Jupyter using pip: Once Python is installed, open a command prompt or terminal and run the following command to install Jupyter Notebook using pip, which is a package manager for Python:
+
+```python
+pip install jupyter
+```
+- Launch Jupyter Notebook: After the installation is complete, you can launch Jupyter Notebook by running the following command in the command prompt or terminal:
+```
+python -m jupyter notebook
+```
+- This will start the Jupyter Notebook server and open a web browser window with the Jupyter Notebook interface.
+
+- Create a new notebook: In the Jupyter Notebook interface, you can navigate to a directory where you want to create a new notebook and click on the "New" button to create a new notebook. You can choose either a Python 3 notebook or any other available kernels depending on your requirements.
+
+## Other IdE and code editors.
+you can install these also 
+- [Pycharm](https://www.jetbrains.com/pycharm/download/)
+- [sublime](https://www.sublimetext.com/)
+- vim
+
+
+
 ## Conclusion
+<<<<<<< HEAD
 Congratulations! You now have access to the latest version of Python for your system. Your Python journey is just beginning.
 
 
 
+=======
+Congratulations! You now have access to the latest version of Python and tools for your system. Your Python journey is just beginning.
+>>>>>>> ace4ae96f156764fc5761c634edb9dd6eafa46e0

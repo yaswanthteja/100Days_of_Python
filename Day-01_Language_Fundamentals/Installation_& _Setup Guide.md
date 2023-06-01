@@ -1,4 +1,11 @@
 
+
+
+
+
+
+
+
 # Installation of Python
 
 Installing or updating Python on your computer is the first step to becoming a Python programmer. 
@@ -275,3 +282,6 @@ $ python3.10 -m test
 
 ## Conclusion
 Congratulations! You now have access to the latest version of Python for your system. Your Python journey is just beginning.
+
+
+

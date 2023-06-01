@@ -405,6 +405,6 @@ you can install these also
 - vim
 
 
-p
+
 ## Conclusion
 Congratulations! You now have access to the latest version of Python and tools for your system. Your Python journey is just beginning.

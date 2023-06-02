@@ -24,4 +24,6 @@
 - [First Program](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-02_Working_with_Variables_And_Datatypes/Day02_Introduction.ipynb)
 
 
-
+## Day3 - Manuplation of strings
+- [Manuplation of Strings](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-03_Manuplation_of_strings/Manuplation_of_strings.md)
+- [Manuplation of strings programs](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-03_Manuplation_of_strings/manuplation_of_strings.ipynb)

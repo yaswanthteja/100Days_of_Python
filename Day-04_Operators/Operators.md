@@ -10,7 +10,7 @@ Python provides the following set of operators
 5. Assignment operators
 6. Special operators
 
-
+chek out the code from here 
 ## 1. Arithmetic Operators:
 
 
@@ -214,11 +214,7 @@ print("The number is", result)
 ```
 
 
-## Operator precedence
 
-
-
-![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/8920784a-4d80-46b2-be3e-6b2992cc87fa)
 
 
 # Special operators:
@@ -246,3 +242,50 @@ We can use identity operators for address comparison.
 Membership operators in python  are used for checking if the iterator or the given value is present in the sequence or not. These types of operators always return values in a TRUE or FALSE format. If the value is found in the sequence then the operator will return TRUE else the operator will return FALSE.
 
 ![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/597799f4-e95b-45de-aed5-4b24e532fc78)
+
+
+
+
+
+## Operator precedence
+
+Operators are the key elements for performing any operation in any programming language.  Operators tell the equation about the operation to be performed. But what if we have a complex equation where more than one operator is paced between two operands and numbers of operands are more than 2.
+- Ex equation = a+b-c*d/e. For these let’s have a look at Operator Precedence and Associativity of Operators.
+
+![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/8920784a-4d80-46b2-be3e-6b2992cc87fa)
+
+
+## Precedence in operators
+Precedence of the operator is to define which operator will be given higher priority to solve the equation. If in an equation more than one operator is present than the above table will be referred to perform operations. Different operators have different precedence and different usage. Advantages of following standard operator precedence table are:
+
+-	Same result.
+- Follow universal grammar
+-	Simplicity
+-	Powerful approach
+But what if we have 2 operators of the same precedence. These where associativity comes in the game.
+
+## Associativity in Operators
+
+Operator Associativity in python
+Associativity of the operator is defined as in what order the operator is given Precision table should be used. Suppose in an equation we have both addition and subtraction operator, then which of the will be given higher precedence. Ex a+b-c, Some advantaged of following associativity table are:
+-	Simplify operator usage
+-	Powerful approach
+-	Universal fact
+To understand this we refer the associativity table so we can solve more complex equations by following global approach.
+
+- HOW DOES PRECEDENCE WORK IN PYTHON?
+When python code is interpreted, the interpreter evaluates the operator with the highest precedence first. To check for the precedence of the operator one should refer to the precision table of operators.
+
+- WHICH OPERATOR HAS HIGHEST PRIORITY?
+Operators present at the top of the precision table are considered as the operator with the highest precision. And if the operator lies under the same precedence, then we refer the associativity table
+
+- DOES PYTHON USE BODMAS?
+Every mathematical operation is done by using mathematical rules. BODMAS [Brackets Order Division Multiplication Addition Subtraction] Python uses PEMDAS-[Paranthesis,Exponent,Multiplication,Division,Addition,Substraction]
+
+- WHAT IS THE ASSOCIATIVITY OF OPERATORS WITH THE SAME PRECEDENCE IN PYTHON?
+Operators having the same precedence are differentiated by referring associative table. Suppose in an equation both addition and subtraction are used, then the addition is performed first and then the subtraction of operands is performed.
+
+
+
+
+

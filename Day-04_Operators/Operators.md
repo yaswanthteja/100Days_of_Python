@@ -274,15 +274,19 @@ Associativity of the operator is defined as in what order the operator is given 
 To understand this we refer the associativity table so we can solve more complex equations by following global approach.
 
 - HOW DOES PRECEDENCE WORK IN PYTHON?
+
 When python code is interpreted, the interpreter evaluates the operator with the highest precedence first. To check for the precedence of the operator one should refer to the precision table of operators.
 
 - WHICH OPERATOR HAS HIGHEST PRIORITY?
+
 Operators present at the top of the precision table are considered as the operator with the highest precision. And if the operator lies under the same precedence, then we refer the associativity table
 
 - DOES PYTHON USE BODMAS?
+
 Every mathematical operation is done by using mathematical rules. BODMAS [Brackets Order Division Multiplication Addition Subtraction] Python uses PEMDAS-[Paranthesis,Exponent,Multiplication,Division,Addition,Substraction]
 
 - WHAT IS THE ASSOCIATIVITY OF OPERATORS WITH THE SAME PRECEDENCE IN PYTHON?
+
 Operators having the same precedence are differentiated by referring associative table. Suppose in an equation both addition and subtraction are used, then the addition is performed first and then the subtraction of operands is performed.
 
 

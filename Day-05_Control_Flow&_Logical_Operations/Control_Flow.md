@@ -177,6 +177,73 @@ Enter second number 15
 
 ```
 
+## Iterative Statements
+
+If we want to execute a group of statements multiple times then we should go for 
+Iterative statements.
+Python supports 2 types of iterative statements.
+1. for loop
+2. while loop
+
+## 1) for loop:
+
+- If we want to execute some action for every element present in some sequence(it may be string or collection)then we should go for for loop.
+Syntax:
+```
+for x in sequence :
+ body
+ ```
+- where sequence can be string or any collection.
+Body will be executed for every element present in the sequence
+
+### Example: To print characters present in the given string
+
+
+
+
+
+
+
+
+
+
+## 2) while loop:
+
+If we want to execute a group of statements iteratively until some condition false,then we should go for while loop.
+## Syntax:
+```
+ while condition :
+ body
+ ```
+ 
+ Eg: To print numbers from 1 to 10 by using while loop
+ ```
+
+ x=1 
+ while x <=10: 
+    print(x) 
+    x=x+1 
+ ```
+
+Eg: To display the sum of first n numbers
+```
+ n=int(input("Enter number:")) 
+ sum=0 
+ i=1 
+ while i<=n: 
+    sum=sum+i 
+    i=i+1 
+ print("The sum of first",n,"numbers is :",sum)
+ ```
+
+## Infinite Loops:
+
+```
+ i=0; 
+ while True : 
+ i=i+1; 
+ print("Hello",i) 
+```
 
 
 

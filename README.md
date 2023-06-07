@@ -25,5 +25,8 @@
 
 
 ## Day3 - Manuplation of strings
+
+- [StringDatatype](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-03_Manuplation_of_strings/StringsDatatype.md)
+- [stringsimplementations](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-03_Manuplation_of_strings/strings.ipynb)
 - [Manuplation of Strings](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-03_Manuplation_of_strings/Manuplation_of_strings.md)
 - [Manuplation of strings programs](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-03_Manuplation_of_strings/manuplation_of_strings.ipynb)

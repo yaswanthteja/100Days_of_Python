@@ -30,3 +30,11 @@
 - [stringsimplementations](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-03_Manuplation_of_strings/strings.ipynb)
 - [Manuplation of Strings](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-03_Manuplation_of_strings/Manuplation_of_strings.md)
 - [Manuplation of strings programs](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-03_Manuplation_of_strings/manuplation_of_strings.ipynb)
+
+
+
+## Operators & Math module
+- [Operators](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-04_Operators%26math_module%26eval/Operators.md)
+- [operstors example](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-04_Operators%26math_module%26eval/Operators.ipynb)
+- [math module](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-04_Operators%26math_module%26eval/math_module.md)
+- [math module examples](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-04_Operators%26math_module%26eval/math_module.ipynb)

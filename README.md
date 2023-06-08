@@ -33,7 +33,7 @@
 
 
 
-## Operators & Math module
+## Day4 - Operators & Math module
 - [Operators](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-04_Operators%26math_module%26eval/Operators.md)
 - [operstors example](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-04_Operators%26math_module%26eval/Operators.ipynb)
 - [math module](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-04_Operators%26math_module%26eval/math_module.md)

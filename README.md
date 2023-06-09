@@ -38,3 +38,10 @@
 - [operstors example](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-04_Operators%26math_module%26eval/Operators.ipynb)
 - [math module](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-04_Operators%26math_module%26eval/math_module.md)
 - [math module examples](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-04_Operators%26math_module%26eval/math_module.ipynb)
+
+
+
+## Day5 -Control Flow & Logical operations
+
+- [control flow](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-05_Control_Flow%26_Logical_Operations/Control_Flow.md)
+- [flow control practical](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-05_Control_Flow%26_Logical_Operations/flow_control.ipynb)

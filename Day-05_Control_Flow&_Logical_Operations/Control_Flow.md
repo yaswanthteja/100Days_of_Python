@@ -200,9 +200,25 @@ Body will be executed for every element present in the sequence
 
 
 
+```
+s="performance" 
+for x in s : 
+  print(x) 
 
 
-
+Output: 
+p
+e
+r
+f
+o
+r
+m
+a
+n
+c
+e
+```
 
 
 

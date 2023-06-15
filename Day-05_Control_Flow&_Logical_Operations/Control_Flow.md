@@ -262,4 +262,100 @@ Eg: To display the sum of first n numbers
 ```
 
 
+## 3. Transfer statements
 
+1. break
+2. continue
+3. pass
+
+
+## break
+
+We can use break statement inside loops to break loop execution based on some condition.
+
+```
+for i in range(10): 
+    if i==7: 
+        print("processing is enough..plz break") 
+        break 
+    print(i) 
+
+D:\Python_classes>py test.py 
+ 0 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ processing is enough..plz break 
+
+```
+## 2) continue:
+We can use continue statement to skip current iteration and continue next iteration.
+
+Eg 1: To print odd numbers in the range 0 to 9
+```
+for i in range(10): 
+    if i%2==0: 
+        continue 
+    print(i) 
+
+D:\Python_classes>py test.py 
+1 
+3 
+5 
+7 
+9 
+```
+
+
+## pass statement:
+pass is a keyword in Python.
+In our programming syntactically if block is required which won't do anything then we can define that empty block with pass keyword.
+
+pass
+ |- It is an empty statement
+ |- It is null statement
+ |- It won't do anything
+Eg:
+
+if True:
+SyntaxError: unexpected EOF while parsing
+
+if True: pass
+==>valid
+
+def m1():
+SyntaxError: unexpected EOF while parsing
+
+
+
+### use case of pass:
+Sometimes in the parent class we have to declare a function with empty body and child 
+class responsible to provide proper implementation. Such type of empty body we can 
+define by using pass keyword. (It is something like abstract method in java)
+
+
+Eg:
+```
+for i in range(100): 
+    if i%9==0: 
+        print(i) 
+    else:pass 
+
+D:\Python_classes>py test.py 
+0 
+9 
+18 
+ 27 
+ 36 
+ 45 
+ 54 
+ 63 
+ 72 
+ 81 
+ 90 
+ 99
+
+```

@@ -1,3 +1,45 @@
+Types of Operators
+
+1. Unary Operators:  ---> works on 1  operand
+Unary operators are operators that operate on a single operand. They perform operations on a single value or variable. Examples of unary operators in Python include:
+
+- Unary plus: `+`
+- Unary minus:` - `
+- Logical NOT:` not`
+- Bitwise NOT:` ~`
+
+2. Binary Operators: ----> works on 2 operand
+Binary operators are operators that operate on two operands. They perform operations between two values or variables. Examples of binary operators in Python include:
+
+- Addition: `+`
+- Subtraction: `-`
+- Multiplication: `*`
+- Division: `/`
+- Modulus: `%`
+- Assignment: `=`
+- Comparison operators: `==`, `!=`, `>`,` <`, `>=`, `<=`
+- Logical operators: `and`, `or`
+- Bitwise operators: `&`,` |`, `^`
+
+3.Ternary Operator: -----> works on 3 operand
+
+The ternary operator in Python is a conditional operator that takes three operands. It allows you to write a conditional expression in a concise form. The syntax of the ternary operator is expression1 if condition else expression2. The value of expression1 is returned if the condition is true, otherwise the value of expression2 is returned. Here's an example:
+
+
+```
+x = 10
+y = 5
+max_value = x if x > y else y
+
+```
+
+
+
+
+
+
+
+
 # Operators
 
 Operator is a symbol that performs certain operations.
@@ -305,3 +347,20 @@ print(result)  # Output: 25
  the eval() function is used to evaluate the expression 'x * 2 + 5'. The value of x is taken from the current scope, and the expression is evaluated, resulting in 25.
  
 It's important to note that the eval() function can execute any valid Python expression, including function calls and variable assignments. However, you should use it with caution, as it can also execute arbitrary code and pose a security risk if used with untrusted input. It is generally recommended to avoid using eval() with untrusted or unsanitized user input.
+
+
+
+
+
+## Truth Values
+The following values are considered falsey, in that they evaluate to False when applied to a boolean operator.
+- None
+- False
+- 0, or any numerical value equivalent to zero, for example 0L, 0.0, 0j
+- Empty sequences: '', "", (), []
+- Empty mappings: {}
+- User-defined types where the __bool__ or __len__ methods return 0 or False
+- All other values in Python evaluate to True.
+Note: A common mistake is to simply check for the Falseness of an operation which returns different Falsey values
+where the difference matters. For example, using if foo() rather than the more explicit if foo() is None
+or if foo() == [] is error-prone, since foo() might return 0, False, or an empty string, tuple, or dictionary.

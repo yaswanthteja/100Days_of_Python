@@ -1,0 +1,207 @@
+# Data Structures:
+Data structures are containers or ways to organize and store data in memory. They provide a way to group related data elements together and define the relationships between them. In Python, there are several built-in data structures, including:
+
+- `Lists`: Ordered collection of items.
+- `Tuples`: Ordered, immutable collection of items.
+- `Dictionaries`: Collection of key-value pairs.
+- `Sets`: Unordered collection of unique elements.
+- `Arrays`: Homogeneous collection of items.
+- `Linked Lists`, `Stacks`, `Queues`, `Trees`, etc. (implemented using classes and objects)
+
+Data structures allow for efficient storage, retrieval, and manipulation of data. They provide different methods and operations to work with the data they contain.
+
+
+# Collection Types
+There are a number of collection types in Python. While types such as int and str hold a single value, collection
+types hold multiple values.
+
+## Lists
+The list type is probably the most commonly used collection type in Python. Despite its name, a list is more like an
+array in other languages, mostly JavaScript.
+
+ In Python, a list is merely an ordered collection of valid Python values.
+
+- If we want to represent a group of individual objects as a single entity where insertion 
+= order preserved and duplicates are allowed, then we should go for List.
+insertion order preserved.
+- Duplicate objects are allowed
+- heterogeneous objects are allowed.
+- List is dynamic because based on our requirement we can increase the size and decrease 
+the size.
+- In List the elements will be placed within square brackets and with comma seperator.
+- We can differentiate duplicate elements by using index and we can preserve insertion 
+order by using index. Hence index will play very important role.
+- Python supports both positive and negative indexes. +ve index means from left to right 
+where as negative index means right to left
+
+ A list can be created by enclosing values, separated by commas, in square brackets:
+```
+int_list = [1, 2, 3]
+string_list = ['abc', 'defghi']
+```
+### Creation of List objects
+ We can create empty list object as follows...
+```
+ list=[] 
+ print(list) 
+ print(type(list)) 
+
+ Output 
+ [] 
+ <class 'list'> 
+```
+- A list can be empty:
+
+```
+empty_list = []
+``` 
+-  If we know elements already then we can create list as follows
+
+```
+list=[10,20,30,40]
+```
+- List  With dynamic input:
+
+```
+list=eval(input("Enter List:")) 
+print(list) 
+print(type(list)) 
+
+output:
+D:\Python_classes>py test.py 
+Enter List:[10,20,30,40] 
+[10, 20, 30, 40] 
+<class 'list'> 
+```
+
+- List With list() function:
+```
+l=list(range(0,10,2)) 
+print(l) 
+print(type(l)) 
+
+D:\Python_classes>py test.py 
+[0, 2, 4, 6, 8] 
+<class 'list'>
+```
+
+Eg:
+
+```
+s="python" 
+l=list(s) 
+print(l) 
+
+D:\Python_classes>py test.py 
+['p', 'y', 't', 'h', 'o','n'] 
+
+```
+
+- with split() function:
+``` 
+s="Learning Python is very very easy !!!" 
+l=s.split() 
+print(l) 
+print(type(l)) 
+
+D:\Python_classes>py test.py 
+['Learning', 'Python', 'is', 'very', 'very', 'easy', '!!!'] 
+<class 'list'> 
+```
+## Note: 
+Sometimes we can take list inside another list,such type of lists are called nested lists.
+```
+[10,20,[30,40]]
+```
+
+
+- The elements of a list are not restricted to a single data type, which makes sense given that Python is a dynamic
+language:
+```
+mixed_list = [1, 'abc', True, 2.34, None]
+```
+
+
+- A list can contain another list as its element:
+
+```
+nested_list = [['a', 'b', 'c'], [1, 2, 3]]
+```
+
+
+
+
+
+## Accessing List Elements
+
+We can access elements of the list either by using index or by using slice operator(:)
+1. By using index:
+- List follows zero based index. ie index of first element is zero.
+- List supports both +ve and -ve indexes.
+- +ve index meant for Left to Right
+- -ve index meant for Right to Left
+```
+list=[10,20,30,40]
+```
+
+2. By using slice operator:
+
+Syntax:
+```
+list2= list1[start:stop:step]
+```
+- start ==>it indicates the index where slice has to start
+ default value is 0
+- stop ===>It indicates the index where slice has to end
+ default value is max allowed index of list ie length of the list
+- step ==>increment value
+ default value is 1
+
+Eg:
+```
+n=[1,2,3,4,5,6,7,8,9,10] 
+print(n[2:7:2]) 
+print(n[4::2]) 
+print(n[3:7]) 
+print(n[8:2:-2]) 
+print(n[4:100])
+Output
+D:\Python_classes>py test.py 
+ [3, 5, 7] 
+ [5, 7, 9] 
+ [4, 5, 6, 7] 
+ [9, 7, 5] 
+ [5, 6, 7, 8, 9, 10]
+ ```
+ 
+
+- The elements of a list can be accessed via an index, or numeric representation of their position. Lists in Python are
+zero-indexed meaning that the first element in the list is at index 0, the second element is at index 1 and so on:
+```
+names = ['Alice', 'Bob', 'Craig', 'Diana', 'Eric']
+print(names[0]) # Alice
+print(names[2]) # Craig
+```
+- Indices can also be negative which means counting from the end of the list (-1 being the index of the last element).
+So, using the list from the above example:
+```
+print(names[-1]) # Eric
+print(names[-4]) # Bob
+```
+- Lists are mutable, so you can change the values in a list:
+```
+names[0] = 'Ann'
+print(names)
+# Outputs ['Ann', 'Bob', 'Craig', 'Diana', 'Eric']
+```
+- Besides, it is possible to add and/or remove elements from a list:
+- Append object to end of list with L.append(object), returns None.
+```
+names = ['Alice', 'Bob', 'Craig', 'Diana', 'Eric']
+names.append("Sia")
+print(names)
+# Outputs ['Alice', 'Bob', 'Craig', 'Diana', 'Eric', 'Sia']
+```
+
+
+

@@ -1,4 +1,27 @@
 
+# Data Types
+
+In Python, data types can be classified into two broad categories: primitive types (also known as primitive data types) and non-primitive types (also known as composite or derived data types).
+
+## Primitive Types:
+
+Primitive types in Python are the fundamental data types that are not composed of other data types. They are built-in and directly supported by the language. The primitive types include:
+
+- Numeric types: `int`, `float`, `complex`
+- Text type: `str`
+- Boolean type: `bool`
+
+- Primitive types are immutable, which means their values cannot be changed once they are assigned.
+
+## Non-Primitive Types:
+
+Non-primitive types are data types that are composed of multiple primitive or non-primitive types. They are also known as composite or derived data types. Some common non-primitive types include:
+
+- Sequence types: `list`, `tuple`, `range`
+- Mapping type: `dict`
+- Set types: `set`, `frozenset`
+
+Non-primitive types are generally mutable, meaning their values can be modified after they are created.
 
 # Data Types
 

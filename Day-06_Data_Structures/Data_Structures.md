@@ -140,6 +140,9 @@ We can access elements of the list either by using index or by using slice opera
 - List supports both +ve and -ve indexes.
 - +ve index meant for Left to Right
 - -ve index meant for Right to Left
+
+  ![image](https://github.com/yaswanthteja/100Days_of_Python/assets/93423367/6bf1fcbd-feac-4663-96e8-075c2cc44415)
+
 ```
 list=[10,20,30,40]
 ```

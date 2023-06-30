@@ -41,7 +41,13 @@
 
 
 
-## Day5 -Control Flow & Logical operations
+## Day5 - Control Flow & Logical operations
 
 - [control flow](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-05_Control_Flow%26_Logical_Operations/Control_Flow.md)
 - [flow control Examples](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-05_Control_Flow%26_Logical_Operations/flow_control.ipynb)
+
+
+## Day6 - Data Structures
+
+- [Data Structures](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-06_Data_Structures/Data_Structures.md)
+

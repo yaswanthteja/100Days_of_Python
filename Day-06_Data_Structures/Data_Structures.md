@@ -208,3 +208,124 @@ print(names)
 
 
 
+
+
+---
+
+# Manipulating elements of List
+
+
+## Differences between append() and insert():
+
+1. append()
+
+- We can use append() function to add element to the end of the list.
+
+- In List when we add any element it will come in last i.e. it will be last element.
+
+
+```
+ n=[1,2,3,4,5] 
+ n.insert(1,888) 
+ print(n) 
+ 
+Output:
+ [1, 888, 2, 3, 4, 5] 
+```
+
+2. insert()
+
+- We can use insert() function to add element at specified index.
+- in List we can insert any element in particular index number
+
+- Note: If the specified index is greater than max index then element will be inserted at last position. If the specified index is smaller than min index then element will be inserted at first position.
+
+```
+ n=[1,2,3,4,5] 
+ n.insert(1,888) 
+ print(n) 
+ 
+ output:
+ [1, 888, 2, 3, 4, 5] 
+```
+
+3.  extend() function:
+- To add all items of one list to another list
+- l1.extend(l2) 
+ - all items present in l2 will be added to l1
+
+```
+order1=["Chicken","Mutton","Fish"] 
+order2=["RC","KF","FO"] 
+order1.extend(order2) 
+print(order1) 
+
+Output:
+['Chicken', 'Mutton', 'Fish', 'RC', 'KF', 'FO'] 
+```
+
+
+4. remove() function:
+- To remove specified item from the list
+- We can use this function to remove specified item from the list.If the item present 
+multiple times then only first occurrence will be removed.
+
+```
+ n=[10,20,10,30] 
+ n.remove(10) 
+ print(n) 
+ 
+ Output:
+ [20, 10, 30] 
+```
+
+5. pop() function:
+It removes and returns the last element of the list.
+This is only function which manipulates list and returns some element.
+Eg:
+```
+n=[10,20,30,40] 
+print(n.pop()) 
+print(n.pop()) 
+print(n) 
+
+D:\Python_classes>py test.py 
+40 
+30 
+[10, 20] 
+the list is empty then pop() function raises IndexError
+```
+
+
+Note:
+1. pop() is the only function which manipulates the list and returns some value
+2. In general we can use append() and pop() functions to implement stack datastructure 
+by using list,which follows LIFO(Last In First Out) order.
+In general we can use pop() function to remove last element of the list. But we can use to remove elements based on index.
+- n.pop(index)===>  To remove and return element present at specified index.
+- n.pop()==> To remove and return last element of the list.
+
+## Differences between remove() and pop()
+
+## remove():
+
+1) We can use to remove special element
+from the List. 
+2) It can’t return any value.
+3) If special element not available then we
+get VALUE ERROR.
+
+
+## pop():
+
+1) We can use to remove last element
+from the List.
+2) It returned removed element.
+
+3) If List is empty then we get Error.
+
+Note:
+- List objects are dynamic. i.e based on our requirement we can increase and decrease the size.
+- append(),insert() ,extend() ===>for increasing the size/growable nature
+- remove(), pop() ======>for decreasing the size /shrinking nature
+

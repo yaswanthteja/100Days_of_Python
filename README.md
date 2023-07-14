@@ -26,6 +26,7 @@
 - [DataTypes](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-02_Working_with_Variables_And_Datatypes/DataTypes.md)
 - [First Program](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-02_Working_with_Variables_And_Datatypes/Day02_Introduction.ipynb)
 - [Typecasting](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-02_Working_with_Variables_And_Datatypes/Typecasting.md)
+- [Identifiers & Reserved Words](https://github.com/yaswanthteja/100Days_of_Python/blob/main/Day-02_Working_with_Variables_And_Datatypes/identifiers_And_Reserved_Words.md)
 
 
 ## Day3 - Manuplation of strings
